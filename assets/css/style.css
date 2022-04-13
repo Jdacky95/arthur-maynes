@@ -185,9 +185,11 @@ footer{
     letter-spacing: 100px;
     color: maroon;
     height: 100px;
+    clear: both;
 }
 
 .social-links > li{
+   
     display: inline;
     color: red;
     size: 150%;
@@ -197,6 +199,7 @@ footer{
     color: white;
     size: 300%;
     font-size: 300%;
+    margin-top: 25px;
 }
 /* add media queries */
 
@@ -209,3 +212,19 @@ footer{
     }
 }
 
+/* gallery page */
+
+#gallery-pics
+{
+clear: both;
+line-height: 0%;
+column-count: 3;
+column-gap: 0ch;
+background-color: black;
+
+}
+
+#gallery-pics > img{
+
+    width: 100%;
+}
