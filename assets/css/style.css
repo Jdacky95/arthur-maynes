@@ -70,20 +70,19 @@ color: rgb(232, 3, 3);
     width: auto;
 }
 
-
+/* main-image-block */
 
 #home-right-text {
     float: right;
     width: 200px;
-    color: maroon;
-    height: 100px;
+    color: red;
+    height: auto;
     
-    text-align: center;
     
 
-    padding: 1px 1px;
-    background-color:black;
-    opacity: .9;
+    padding: 20px;
+    background-color:rgb(0, 0, 0, .9);
+   
 
     position: absolute;
     left: 500px;
