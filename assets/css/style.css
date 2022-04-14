@@ -243,6 +243,21 @@ footer {
     padding: 5%;
 }
 
+/*club page*/
+#form-section{
+
+    height: 800px;
+    width: 100%;
+}
+#pic-form{
+    /* background: url(../images/wine-bottle-horizontal.webp);
+    background-size: cover;
+    height: 450px;
+    width: auto; */
+
+}
+
+
 /* add media queries */
 
 @media screen and (max-width:1200px) {
