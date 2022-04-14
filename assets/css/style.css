@@ -33,6 +33,7 @@ h2 {
     color: rgb(232, 3, 3);
     font-size: 300%;
     margin-left: 70px;
+    margin-right:20px;
 }
 
 #maynes:hover {
@@ -77,37 +78,26 @@ h2 {
     border-bottom: solid 1px;
 }
 
-#mini-header-block {
-    background-color: black;
-    opacity: .85;
-    height: 200px;
-    width: auto;
-}
 
-#section2-image {
-    height: 200px;
-    width: 100%;
-    background: url(../images/rows-wine-bottles.jpeg) no-repeat center center;
-    background-size: cover;
-}
 
 /* main-image-block */
 
-#home-right-text {
-    float: right;
+#home-text {
+    
     width: 600px;
     color: red;
     height: auto;
     text-align: center;
+    left: 25%;
 
+    
+    background-color: rgba(5, 5, 2, 0.7);
 
-    padding: 20px;
-    background-color: rgba(5, 5, 2, 0.3);
-
-
+margin: 0 auto;
     position: absolute;
-    left: 350px;
-    bottom: 650px;
+    /* left: 350px;
+    bottom: 650px; 
+    float: right; */
 
 }
 
@@ -166,7 +156,7 @@ h2 {
     margin: 0;
     text-align: center;
     height: 450px;
-    margin-top: 30px;
+    
     font-size: 150%;
 
     background: url(../images/latte.jpg-resized.jpg);
@@ -185,7 +175,7 @@ h2 {
     color: white;
     text-align: center;
     height: 450px;
-    margin-top: 30px;
+    
     font-size: 150%;
 
     background: url(../images/wine-horizontal.jpeg-resized.jpeg);
@@ -206,7 +196,7 @@ footer {
     clear: both;
 }
 
-.social-links>li {
+.social-links > li {
 
     display: inline;
     color: red;
@@ -218,6 +208,7 @@ footer {
     size: 300%;
     font-size: 300%;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .social-links i:hover {
@@ -251,16 +242,18 @@ footer {
     }
 
     #opening {
-        width: 100%;
-        float: left;
+        width: 80%;
+        margin: 0 10%;
         padding: 0%;
         clear: both;
         height: auto;
+        
+        background-size: cover;
     }
 
     #club {
-        width: 100%;
-        float: left;
+        width: 80%;
+        margin: 0 10%;
         padding: 0%;
         clear: both;
         height: auto;
@@ -282,15 +275,23 @@ float: left;
     #box{
         height: 200px;
     }
-    
+    #home-text{
+        
+        width: 50%;
+        height: auto;
+        margin:0 auto
+    }
+    h1{
+        text-align: center;
+    }
     
     }
 
-    @media screen and (max-width: 472px){
+    @media screen and (max-width: 530px){
         #nav-links{
     clear: left;
-    margin-left: 75px;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    margin: 0 25%;
     line-height: 25px;
     float: left;
     
@@ -305,5 +306,13 @@ float: left;
         }
         .three{
             clear: both;
+        }
+        #maynes{
+            margin: 0 10%;
+        }
+        #club, #opening
+        {
+            width: 100%;
+            margin: 0%;
         }
 }
