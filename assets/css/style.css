@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -21,10 +22,15 @@ h2 {
 }
 
 #box {
-    
+
     background-color: black;
     width: 100%;
     height: 150px;
+}
+#box-2{
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 100%;
+    height: 350px;
 }
 
 #maynes {
@@ -33,7 +39,7 @@ h2 {
     color: rgb(232, 3, 3);
     font-size: 300%;
     margin-left: 70px;
-    margin-right:20px;
+    margin-right: 20px;
 }
 
 #maynes:hover {
@@ -51,16 +57,14 @@ h2 {
 
     list-style-type: none;
     margin-right: 20px;
-    
+
 }
 
 #maynes,
 #nav-links {
 
     line-height: 75px;
-    padding-top: 30px
-
-    ;
+    padding-top: 30px;
 }
 
 #nav-links a {
@@ -83,17 +87,18 @@ h2 {
 /* main-image-block */
 
 #home-text {
-    
+
     width: 600px;
-    color: red;
+    color: white;
     height: auto;
     text-align: center;
     left: 25%;
+    font-family: "Caveat";
 
-    
+
     background-color: rgba(5, 5, 2, 0.7);
 
-margin: 0 auto;
+    margin: 0 auto;
     position: absolute;
     /* left: 350px;
     bottom: 650px; 
@@ -151,13 +156,13 @@ margin: 0 auto;
 #opening {
     width: 50%;
     float: left;
-    background-color: rgba(5, 5, 5, 0.7);
+    font-family: "Caveat";
     color: white;
     margin: 0;
     text-align: center;
-    height: 450px;
-    
-    font-size: 150%;
+    height: 500px;
+
+    font-size: 200%;
 
     background: url(../images/latte.jpg-resized.jpg);
     background-size: cover;
@@ -170,15 +175,14 @@ margin: 0 auto;
 #club {
     width: 50%;
     float: right;
-
-    background-color: rgba(5, 5, 5, 0.7);
-    color: white;
+    font-family: "Caveat";
+    color: red;
     text-align: center;
-    height: 450px;
-    
-    font-size: 150%;
+    height: 500px;
 
-    background: url(../images/wine-horizontal.jpeg-resized.jpeg);
+    font-size: 200%;
+
+    background: url(../images/chemical-bottles.jpg-resized.jpg);
     background-size: cover;
 }
 
@@ -196,7 +200,7 @@ footer {
     clear: both;
 }
 
-.social-links > li {
+.social-links>li {
 
     display: inline;
     color: red;
@@ -226,7 +230,7 @@ footer {
 
 }
 
-#gallery-pics > img {
+#gallery-pics>img {
 
     width: 100%;
 }
@@ -247,7 +251,7 @@ footer {
         padding: 0%;
         clear: both;
         height: auto;
-        
+
         background-size: cover;
     }
 
@@ -258,61 +262,71 @@ footer {
         clear: both;
         height: auto;
     }
-    
+
 
 
 }
+
 /* medium screens*/
-@media screen and (max-width: 950px){
-    #nav-links{
-clear: left;
-margin-left: 20px;
-margin-bottom: 20px;
-line-height: 25px;
-float: left;
+@media screen and (max-width: 950px) {
+    #nav-links {
+        clear: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        float: left;
 
     }
-    #box{
+
+    #box {
         height: 200px;
     }
-    #home-text{
-        
+
+    #home-text {
+
         width: 50%;
         height: auto;
-        margin:0 auto
-    }
-    h1{
-        text-align: center;
-    }
-    
+        margin: 0 auto
     }
 
-    @media screen and (max-width: 530px){
-        #nav-links{
-    clear: left;
-    margin: 0 auto;
-    margin: 0 25%;
-    line-height: 25px;
-    float: left;
-    
-    
-        }
-        #box{
-            height: 330px;
-        }
-        
-        .two{
-            clear: both;
-        }
-        .three{
-            clear: both;
-        }
-        #maynes{
-            margin: 0 10%;
-        }
-        #club, #opening
-        {
-            width: 100%;
-            margin: 0%;
-        }
+    h1 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    #nav-links {
+        clear: left;
+        margin: 0 auto;
+        margin: 0 25%;
+        line-height: 25px;
+        float: left;
+
+
+    }
+
+    #box {
+        height: 330px;
+    }
+
+    .two {
+        clear: both;
+        margin-top: 30px;
+    }
+
+    .three {
+        clear: both;
+        margin-top: 30px;
+    }
+
+    #maynes {
+        margin: 0 10%;
+    }
+
+    #club,
+    #opening {
+        width: 100%;
+        margin: 0%;
+    }
 }
