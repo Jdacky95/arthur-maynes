@@ -37,7 +37,8 @@ h2 {
     float: left;
 
     color: rgb(232, 3, 3);
-    font-size: 300%;
+    font-size: 300%; 
+
     margin-left: 70px;
     margin-right: 20px;
 }
@@ -98,7 +99,7 @@ h2 {
 
     background-color: rgba(5, 5, 2, 0.7);
 
-    margin: 0 auto;
+    margin: 30px auto;
     position: absolute;
     /* left: 350px;
     bottom: 650px; 
@@ -143,8 +144,8 @@ h2 {
 
 #bottom-blocks {
     background-color: black;
-    height: 500px;
-    overflow: hidden;
+    height: 700px;
+    
     position: relative;
     width: 100%;
 
@@ -154,18 +155,24 @@ h2 {
 
 
 #opening {
-    width: 50%;
+    width: 40%;
     float: left;
     font-family: "Caveat";
-    color: white;
-    margin: 0;
+    color: black;
+    border: 20px solid;
+    border-color: black;
+    box-sizing: border-box;
     text-align: center;
-    height: 500px;
+    height: 650px;
+background-color: white;
+    font-size: 170%;
+    margin-left: 6.5%;
+    
+    padding: 30px;
+    display: inline-block;
 
-    font-size: 200%;
-
-    background: url(../images/latte.jpg-resized.jpg);
-    background-size: cover;
+    /* background: url(../images/latte.jpg-resized.jpg);
+    background-size: cover; */
 
 
 
@@ -173,18 +180,24 @@ h2 {
 }
 
 #club {
-    width: 50%;
+    width: 40%;
     float: right;
     font-family: "Caveat";
-    color: red;
+    color: black;
     text-align: center;
-    height: 500px;
+    height: 650px;
+    background-color: white;
+    border: 20px solid;
+    border-color: black;
+    box-sizing: border-box;
+margin-right: 6.5%;
+    font-size: 170%;
+    padding: 30px;
+    display: inline-block;
+    
 
-    font-size: 200%;
-
-    background: url(../images/chemical-bottles.jpg-resized.jpg);
-    background-size: cover;
 }
+
 
 
 
@@ -195,7 +208,7 @@ footer {
     float: inline-start;
     background-color: black;
     letter-spacing: 100px;
-    color: maroon;
+    
     height: auto;
     clear: both;
 }
@@ -203,8 +216,6 @@ footer {
 .social-links>li {
 
     display: inline;
-    color: red;
-    size: 150%;
 }
 
 .social-links i {
@@ -242,23 +253,25 @@ footer {
         width: 100%;
         height: auto;
         margin: 0 auto;
+        
 
     }
 
     #opening {
-        width: 80%;
-        margin: 0 10%;
-        padding: 0%;
+        width: 90%;
+        margin: 0 5%;
+        padding: 30px;
         clear: both;
         height: auto;
+        
 
-        background-size: cover;
+        
     }
 
     #club {
-        width: 80%;
-        margin: 0 10%;
-        padding: 0%;
+        width: 90%;
+        margin: 0 5%;
+        padding: 30px;
         clear: both;
         height: auto;
     }
@@ -271,7 +284,7 @@ footer {
 @media screen and (max-width: 950px) {
     #nav-links {
         clear: left;
-        margin-left: 20px;
+        margin-left: 18%;
         margin-bottom: 20px;
         line-height: 25px;
         float: left;
@@ -286,13 +299,18 @@ footer {
 
         width: 50%;
         height: auto;
-        margin: 0 auto
+        margin: 30px auto
     }
 
     h1 {
         text-align: center;
     }
-
+    #maynes{
+        margin-left: 25%;
+    }
+.social-links i {
+    letter-spacing: 20px;
+}
 }
 
 @media screen and (max-width: 530px) {
@@ -307,10 +325,10 @@ footer {
     }
 
     #box {
-        height: 330px;
+        height: 400px;
     }
 
-    .two {
+    #two {
         clear: both;
         margin-top: 30px;
     }
@@ -329,4 +347,8 @@ footer {
         width: 100%;
         margin: 0%;
     }
+.social-links i {
+    letter-spacing: 0px;
+    font-size: 200%;
+}
 }
