@@ -93,7 +93,6 @@ h2 {
     left: 25%;
     font-family: "Caveat";
 
-
     background-color: rgba(5, 5, 2, 0.7);
 
     margin: 30px auto;
@@ -110,8 +109,6 @@ h2 {
     background: url(../images/maynes-glass-front.jpg\ 1200x800\ high.jpg) no-repeat center center;
     background-size: cover;
     position: absolute;
-
-
 
     animation-name: home-zoom;
     animation-duration: 5s;
@@ -252,6 +249,9 @@ footer {
     background-color: white;
     position: relative;
 }
+hr{
+     border: 1px solid rgb(255, 0, 174);
+}
 
 #pic-form {
     background: url(../images/wine-bottle-horizontal.webp);
@@ -259,7 +259,6 @@ footer {
 height: 900px;
 
     width: 100%;
-
 }
 #contact{
     text-align: center;
@@ -274,7 +273,7 @@ height: 900px;
     width: 500px;
     background-color: rgb(8, 7, 7, 0.9);
     color:rgb(255, 0, 174);
-    font-family: "Caveat";
+    font-family: 'Dancing Script', cursive;
     position: absolute;
     padding: 25px;
     left: 25%;
@@ -339,6 +338,9 @@ height: 900px;
     color: rgb(255, 0, 174);
     background: transparent;
 }
+.spaces:hover{
+    border: solid 2px red;
+}
 
 
 
@@ -398,9 +400,10 @@ height: 900px;
 
     #home-text {
 
-        width: 50%;
+        width: 100%;
         height: auto;
-        margin: 30px auto
+        margin: 10px 0;
+        left: 0px;
     }
 
     h1 {
@@ -419,39 +422,58 @@ height: 900px;
     #gallery {
         column-count: 2;
     }
+    #form-box{
+        width: 80%;
+        height: 600px;
+        font-size: 100%;
+        left: 20px;
+    }
 
 }
 
 /* 476px */
 @media screen and (max-width: 476px) {
     #nav-links {
-        clear: left;
+        /* clear: left;
         margin: 0 30%;
         line-height: 25px;
-        float: left;
-
-
-
+        float: left; */
+    }
+#maynes{
+    line-height: 40px;
+        padding-top: 15px;
+        text-align: center;
+        margin-left: 10px;
+}
+    #nav-links {
+    
+        line-height: 40px;
+        padding-top: 15px;
+        float: none;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+    #nav-links li {
+        float: none;
+        margin: 0 auto;
     }
 
     #box {
-        height: 400px;
+        height: 300px;
     }
 
-    #two {
-        clear: both;
-        margin-top: 30px;
-    }
+    
 
-    .three {
-        clear: both;
-        margin-top: 30px;
-    }
+   
 
-    #maynes {
-        margin: 0 10%;
-    }
+   
+    
+#home-text{
+    width: 200px;
+    height: 200px;
+    left: 10%;
 
+}
     #club,
     #opening {
         width: 100%;
@@ -471,7 +493,26 @@ height: 900px;
         column-count: 1;
     }
 
-    #nav-links li {
-        margin-left: 25%;
+   
+    #form-box{
+        width: 80%;
+        height: auto;
+        font-size: 100%;
+        left: 10px;
     }
+    #contact{
+        font-size: 150%;
+    }
+    .join{
+        padding: 10px;
+        font-size: 100%;
+        margin-top: 10px;
+        left: 20px;
+    }
+    .wine-club {
+        padding: 10px;
+        font-size: 100%;
+        text-align: left;
+    }
+    
 }
