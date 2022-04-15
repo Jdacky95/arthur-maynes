@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -163,7 +164,7 @@ h2 {
     margin-left: 6.5%;
 
     padding: 10px;
-    
+
 
     /* background: url(../images/latte.jpg-resized.jpg);
     background-size: cover; */
@@ -187,7 +188,7 @@ h2 {
     margin-right: 6.5%;
     font-size: 170%;
     padding: 10px;
-    
+
 
 
 }
@@ -211,7 +212,7 @@ footer {
 }
 
 .social-links i {
-    color: white;
+    color: red;
     size: 300%;
     font-size: 300%;
     margin: 15px;
@@ -219,7 +220,7 @@ footer {
 }
 
 .social-links i:hover {
-    color: red;
+    color: rgb(255, 0, 174);
 }
 
 /* gallery page */
@@ -249,22 +250,24 @@ footer {
     background-color: white;
     position: relative;
 }
-hr{
-     border: 1px solid rgb(255, 0, 174);
+
+hr {
+    border: 1px solid rgb(255, 0, 174);
 }
 
 #pic-form {
     background: url(../images/wine-bottle-horizontal.webp);
     background-size: cover;
-height: 900px;
+    height: 900px;
 
     width: 100%;
 }
-#contact{
+
+#contact {
     text-align: center;
     font-size: 300%;
     font-family: 'Dancing Script', cursive;
-    
+
 }
 
 #form-box {
@@ -272,14 +275,14 @@ height: 900px;
     height: 650px;
     width: 500px;
     background-color: rgb(8, 7, 7, 0.9);
-    color:rgb(255, 0, 174);
+    color: rgb(255, 0, 174);
     font-family: 'Dancing Script', cursive;
     position: absolute;
     padding: 25px;
     left: 25%;
     top: 75px;
     font-size: 150%;
-   
+
 }
 
 #spaces {
@@ -295,7 +298,7 @@ height: 900px;
     padding: 30px;
     font-size: 200%;
     text-align: center;
-    
+
 
 
 }
@@ -305,13 +308,14 @@ height: 900px;
     text-align: center;
     font-size: 200%;
     font-weight: 200;
-    
+
 }
 
 #fav {
     margin: 0px 20px 20px 20px;
 }
-.favlabel{
+
+.favlabel {
     margin: 0px 0px 20px 20px
 }
 
@@ -326,19 +330,22 @@ height: 900px;
     margin-top: 50px;
 
 }
-.join:hover{
+
+.join:hover {
     background-color: #fff;
     color: rgb(255, 0, 174);
     font-family: 'Dancing Script', cursive;
 
 }
-.spaces{
+
+.spaces {
     width: 100%;
     border: solid 2px #fff;
     color: rgb(255, 0, 174);
     background: transparent;
 }
-.spaces:hover{
+
+.spaces:hover {
     border: solid 2px red;
 }
 
@@ -422,7 +429,8 @@ height: 900px;
     #gallery {
         column-count: 2;
     }
-    #form-box{
+
+    #form-box {
         width: 80%;
         height: 600px;
         font-size: 100%;
@@ -433,21 +441,32 @@ height: 900px;
 
 /* 476px */
 @media screen and (max-width: 476px) {
-   
-#maynes{
-    line-height: 40px;
-        padding-top: 15px;
+
+    #maynes {
+        line-height: 50px;
+        padding-top: 30px;
         text-align: center;
-        margin-left: 10px;
-}
+        border-bottom: none;
+        width: 240px;
+        float: none;
+        margin: 0 auto;
+
+    }
+
+    .maynes-link {
+        text-decoration-style: none;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
     #nav-links {
-    
+
         line-height: 40px;
         padding-top: 15px;
         float: none;
-        margin: 0 auto;
         margin-left: 10px;
     }
+
     #nav-links li {
         float: none;
         margin: 0 auto;
@@ -457,18 +476,21 @@ height: 900px;
         height: 300px;
     }
 
-    
 
-   
 
-   
-    
-#home-text{
-    width: 200px;
-    height: 200px;
-    left: 10%;
 
-}
+
+
+
+    #home-text {
+        width: 200px;
+        height: 150px;
+        margin: 0 auto;
+        left: 0px;
+        position: relative;
+
+    }
+
     #club,
     #opening {
         width: 100%;
@@ -488,26 +510,35 @@ height: 900px;
         column-count: 1;
     }
 
-   
-    #form-box{
+
+    #form-box {
         width: 80%;
         height: auto;
         font-size: 100%;
         left: 10px;
     }
-    #contact{
+
+    #contact {
         font-size: 150%;
     }
-    .join{
+
+    .join {
         padding: 10px;
         font-size: 100%;
         margin-top: 10px;
         left: 20px;
     }
+
     .wine-club {
         padding: 10px;
         font-size: 100%;
         text-align: left;
     }
-    
+
+    #form-section{
+        height: 500px;
+    }
+#pic-form{
+    height: 500px;
+}
 }
