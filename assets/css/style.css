@@ -132,7 +132,7 @@ h2 {
     /* color: white; */
     color: red;
     border: 20px solid;
-    border-color: black;
+    border-color: red;
     box-sizing: border-box;
     text-align: center;
     height: 650px;
@@ -152,7 +152,7 @@ h2 {
     color: red;
     background-color: black;
     border: 20px solid;
-    border-color: black;
+    border-color: red;
     box-sizing: border-box;
     margin-right: 6.5%;
     font-size: 150%;
@@ -177,7 +177,7 @@ footer {
 
 .social-links i {
     color: red;
-    size: 300%;
+    resize: 300%;
     font-size: 300%;
     margin: 15px;
 
@@ -386,7 +386,7 @@ hr {
     }
 
     .maynes-link {
-        text-decoration-style: none;
+        
         list-style-type: none;
         text-decoration: none;
     }
