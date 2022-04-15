@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 * {
@@ -20,30 +18,27 @@ h2 {
 }
 
 #box {
-
     background-color: black;
     width: 100%;
     height: 150px;
 }
 
-#box-2 {
-    background-color: rgb(0, 0, 0, 0.9);
-    width: 100%;
-    height: 350px;
-}
-
 #maynes {
     float: left;
-
     color: rgb(232, 3, 3);
     font-size: 300%;
-
     margin-left: 70px;
-    margin-right: 20px;
 }
 
 #maynes:hover {
     color: white;
+}
+
+#maynes,
+#nav-links {
+
+    line-height: 75px;
+    padding-top: 30px;
 }
 
 #nav-links {
@@ -56,19 +51,11 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 20px;
-
-}
-
-#maynes,
-#nav-links {
-
-    line-height: 75px;
-    padding-top: 30px;
 }
 
 #nav-links a {
     text-decoration: none;
-    padding: 0 30px;
+    padding: 0 20px;
     color: rgb(232, 3, 3);
 }
 
@@ -81,27 +68,14 @@ h2 {
     border-bottom: solid 1px;
 }
 
-
-
 /* main-image-block */
 
-#home-text {
-
-    width: 600px;
-    color: white;
-    height: auto;
-    text-align: center;
-    left: 25%;
-    font-family: "Caveat";
-
-    background-color: rgba(5, 5, 2, 0.7);
-
-    margin: 30px auto;
-    position: absolute;
-    /* left: 350px;
-    bottom: 650px; 
-    float: right; */
-
+#home-outer {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
 }
 
 #home-image {
@@ -116,6 +90,21 @@ h2 {
     animation-fill-mode: forwards;
 }
 
+#home-text {
+
+    width: 600px;
+    color: white;
+    height: auto;
+    text-align: center;
+    left: 25%;
+
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(5, 5, 2, 0.7);
+
+    margin: 30px 0;
+    position: absolute;
+}
+
 @keyframes home-zoom {
     from {
         transform: scale(1)
@@ -127,69 +116,46 @@ h2 {
     }
 }
 
-#home-outer {
-    width: 100%;
-    height: 800px;
-    overflow: hidden;
-    background-color: black;
-    position: relative;
-}
-
 /* open and club blocks */
 
 #bottom-blocks {
     background-color: black;
     height: 700px;
-
     position: relative;
     width: 100%;
-
-
 }
 
-
-
 #opening {
-    width: 40%;
+    width: 500px;
     float: left;
-    font-family: 'Dancing Script', cursive;
-    color: black;
+    font-family: monospace;
+    color: white;
     border: 20px solid;
     border-color: black;
     box-sizing: border-box;
     text-align: center;
     height: 650px;
-    background-color: white;
+    background-color: rgb(255, 0, 174);
     font-size: 170%;
     margin-left: 6.5%;
-
     padding: 10px;
-
-
-    /* background: url(../images/latte.jpg-resized.jpg);
-    background-size: cover; */
-
-
-
-
 }
 
+
 #club {
-    width: 40%;
+    width: 500px;
     float: right;
-    font-family: 'Dancing Script', cursive;
-    color: black;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     height: 650px;
-    background-color: white;
+    color: white;
+    background-color: rgb(255, 0, 174);
     border: 20px solid;
     border-color: black;
     box-sizing: border-box;
     margin-right: 6.5%;
-    font-size: 170%;
+    font-size: 150%;
     padding: 10px;
-
-
 
 }
 
@@ -247,27 +213,18 @@ footer {
 
     height: 900px;
     width: 100%;
-    background-color: white;
     position: relative;
 }
 
 hr {
-    border: 1px solid rgb(255, 0, 174);
+    border: 1px solid white;
 }
 
 #pic-form {
-    background: url(../images/wine-bottle-horizontal.webp);
+    background: url(../images/wine-bottle-horizontal.webp) no-repeat center center;
     background-size: cover;
     height: 900px;
-
     width: 100%;
-}
-
-#contact {
-    text-align: center;
-    font-size: 300%;
-    font-family: 'Dancing Script', cursive;
-
 }
 
 #form-box {
@@ -285,57 +242,18 @@ hr {
 
 }
 
-#spaces {
-    margin-top: 50px;
-    margin-left: 30px;
-}
+#contact {
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
 
-/* .text {
-    margin: 15px;
-} */
+}
 
 .wine-club {
-    padding: 30px;
+    padding: 30px 0 10px 0;
     font-size: 200%;
     text-align: center;
-
-
-
-}
-
-.favh2 {
-    padding: 30px;
-    text-align: center;
-    font-size: 200%;
-    font-weight: 200;
-
-}
-
-#fav {
-    margin: 0px 20px 20px 20px;
-}
-
-.favlabel {
-    margin: 0px 0px 20px 20px
-}
-
-.join {
-    text-align: center;
-    background-color: rgb(255, 0, 174);
-    color: rgb(254, 254, 254);
-    padding: 30px;
-    left: 100px;
-    font-size: 120%;
-    font-family: 'Dancing Script', cursive;
-    margin-top: 50px;
-
-}
-
-.join:hover {
-    background-color: #fff;
-    color: rgb(255, 0, 174);
-    font-family: 'Dancing Script', cursive;
-
 }
 
 .spaces {
@@ -346,11 +264,26 @@ hr {
 }
 
 .spaces:hover {
-    border: solid 2px red;
+    border: solid 2px rgb(255, 0, 174);
 }
 
+.join {
+    text-align: center;
+    background-color: rgb(255, 0, 174);
+    color: rgb(254, 254, 254);
+    padding: 20px;
+    left: 100px;
+    font-size: 150%;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
 
+}
 
+.join:hover {
+    background-color: #fff;
+    color: rgb(255, 0, 174);
+    font-family: 'Dancing Script', cursive;
+}
 
 /* add media queries */
 
@@ -359,24 +292,20 @@ hr {
         width: 100%;
         height: auto;
         margin: 0 auto;
-
-
     }
 
     #opening {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
         padding: 30px;
         clear: both;
         height: auto;
-
-
-
+        left: 0px;
+        margin: 0%;
     }
 
     #club {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
+        margin: 0%;
         padding: 30px;
         clear: both;
         height: auto;
@@ -386,19 +315,27 @@ hr {
         margin: 10px auto;
     }
 
+    #media-p {
+        width: 600px;
+        margin: 0 auto;
+    }
 
 
 }
 
 /* medium screens 850 */
 @media screen and (max-width: 850px) {
+    #maynes {
+        padding: 10px;
+        text-align: center;
+    }
+
     #nav-links {
         clear: left;
         margin-left: 60px;
         text-align: center;
         line-height: 25px;
         float: left;
-
     }
 
     #box {
@@ -417,9 +354,9 @@ hr {
         text-align: center;
     }
 
-    #maynes {
-        padding: 10px;
-        text-align: center;
+    #media-p {
+        width: 350px;
+        margin: 0 auto;
     }
 
     .social-links i {
@@ -450,7 +387,6 @@ hr {
         width: 240px;
         float: none;
         margin: 0 auto;
-
     }
 
     .maynes-link {
@@ -476,12 +412,6 @@ hr {
         height: 300px;
     }
 
-
-
-
-
-
-
     #home-text {
         width: 200px;
         height: 150px;
@@ -491,10 +421,20 @@ hr {
 
     }
 
+    #head-476 {
+        width: 200px;
+        margin: 0 auto;
+    }
+
     #club,
     #opening {
         width: 100%;
         margin: 0%;
+    }
+
+    #media-p {
+        width: 200px;
+        margin: 0 auto;
     }
 
     .social-links i {
@@ -509,7 +449,6 @@ hr {
     #gallery {
         column-count: 1;
     }
-
 
     #form-box {
         width: 80%;
@@ -535,10 +474,11 @@ hr {
         text-align: left;
     }
 
-    #form-section{
+    #form-section {
         height: 500px;
     }
-#pic-form{
-    height: 500px;
-}
+
+    #pic-form {
+        height: 500px;
+    }
 }
