@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +24,8 @@ h2 {
     width: 100%;
     height: 150px;
 }
-#box-2{
+
+#box-2 {
     background-color: rgb(0, 0, 0, 0.9);
     width: 100%;
     height: 350px;
@@ -34,7 +35,7 @@ h2 {
     float: left;
 
     color: rgb(232, 3, 3);
-    font-size: 300%; 
+    font-size: 300%;
 
     margin-left: 70px;
     margin-right: 20px;
@@ -141,7 +142,7 @@ h2 {
 #bottom-blocks {
     background-color: black;
     height: 700px;
-    
+
     position: relative;
     width: 100%;
 
@@ -160,10 +161,10 @@ h2 {
     box-sizing: border-box;
     text-align: center;
     height: 650px;
-background-color: white;
+    background-color: white;
     font-size: 170%;
     margin-left: 6.5%;
-    
+
     padding: 10px;
     display: inline-block;
 
@@ -186,11 +187,11 @@ background-color: white;
     border: 20px solid;
     border-color: black;
     box-sizing: border-box;
-margin-right: 6.5%;
+    margin-right: 6.5%;
     font-size: 170%;
     padding: 10px;
     display: inline-block;
-    
+
 
 }
 
@@ -217,7 +218,7 @@ footer {
     size: 300%;
     font-size: 300%;
     margin: 15px;
-    
+
 }
 
 .social-links i:hover {
@@ -232,30 +233,114 @@ footer {
     column-count: 3;
     column-gap: 0ch;
     background-color: black;
-    
+
 
 }
 
 #gallery>img {
 
     width: 90%;
-    
+
     padding: 5%;
 }
 
 /*club page*/
-#form-section{
+#form-section {
 
-    height: 800px;
+    height: 900px;
     width: 100%;
+    background-color: white;
+    position: relative;
 }
-#pic-form{
-    /* background: url(../images/wine-bottle-horizontal.webp);
+
+#pic-form {
+    background: url(../images/wine-bottle-horizontal.webp);
     background-size: cover;
-    height: 450px;
-    width: auto; */
+height: 900px;
+
+    width: 100%;
 
 }
+#contact{
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+#form-box {
+
+    height: 650px;
+    width: 500px;
+    background-color: rgb(8, 7, 7, 0.9);
+    color:rgb(255, 0, 174);
+    font-family: "Caveat";
+    position: absolute;
+    padding: 25px;
+    left: 25%;
+    top: 75px;
+    font-size: 150%;
+   
+}
+
+#spaces {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/* .text {
+    margin: 15px;
+} */
+
+.wine-club {
+    padding: 30px;
+    font-size: 200%;
+    text-align: center;
+    
+
+
+}
+
+.favh2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 200;
+    
+}
+
+#fav {
+    margin: 0px 20px 20px 20px;
+}
+.favlabel{
+    margin: 0px 0px 20px 20px
+}
+
+.join {
+    text-align: center;
+    background-color: rgb(255, 0, 174);
+    color: rgb(254, 254, 254);
+    padding: 30px;
+    left: 100px;
+    font-size: 120%;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+
+}
+.join:hover{
+    background-color: #fff;
+    color: rgb(255, 0, 174);
+    font-family: 'Dancing Script', cursive;
+
+}
+.spaces{
+    width: 100%;
+    border: solid 2px #fff;
+    color: rgb(255, 0, 174);
+    background: transparent;
+}
+
+
 
 
 /* add media queries */
@@ -265,7 +350,7 @@ footer {
         width: 100%;
         height: auto;
         margin: 0 auto;
-        
+
 
     }
 
@@ -275,9 +360,9 @@ footer {
         padding: 30px;
         clear: both;
         height: auto;
-        
 
-        
+
+
     }
 
     #club {
@@ -287,7 +372,8 @@ footer {
         clear: both;
         height: auto;
     }
-    #nav-links li{
+
+    #nav-links li {
         margin: 10px auto;
     }
 
@@ -295,8 +381,8 @@ footer {
 
 }
 
-/* medium screens 950 */
-@media screen and (max-width: 950px) {
+/* medium screens 850 */
+@media screen and (max-width: 850px) {
     #nav-links {
         clear: left;
         margin-left: 60px;
@@ -320,26 +406,30 @@ footer {
     h1 {
         text-align: center;
     }
-    #maynes{
+
+    #maynes {
         padding: 10px;
         text-align: center;
     }
-.social-links i {
-    letter-spacing: 20px;
-}
-#gallery{
-    column-count: 2;
-}
+
+    .social-links i {
+        letter-spacing: 20px;
+    }
+
+    #gallery {
+        column-count: 2;
+    }
 
 }
+
 /* 476px */
 @media screen and (max-width: 476px) {
     #nav-links {
         clear: left;
-        margin:0 30%;
+        margin: 0 30%;
         line-height: 25px;
         float: left;
-        
+
 
 
     }
@@ -367,17 +457,21 @@ footer {
         width: 100%;
         margin: 0%;
     }
-.social-links i {
-    letter-spacing: 10px;
-    font-size: 200%;
-}
-.social-links>li{
-    letter-spacing: 10px;
-}
-#gallery{
-    column-count: 1;
-}
-#nav-links li{
-    margin-left: 25%;
-}
+
+    .social-links i {
+        letter-spacing: 10px;
+        font-size: 200%;
+    }
+
+    .social-links>li {
+        letter-spacing: 10px;
+    }
+
+    #gallery {
+        column-count: 1;
+    }
+
+    #nav-links li {
+        margin-left: 25%;
+    }
 }
