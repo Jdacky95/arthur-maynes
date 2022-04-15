@@ -152,7 +152,7 @@ h2 {
 #opening {
     width: 40%;
     float: left;
-    font-family: "Caveat";
+    font-family: 'Dancing Script', cursive;
     color: black;
     border: 20px solid;
     border-color: black;
@@ -177,7 +177,7 @@ h2 {
 #club {
     width: 40%;
     float: right;
-    font-family: "Caveat";
+    font-family: 'Dancing Script', cursive;
     color: black;
     text-align: center;
     height: 650px;
