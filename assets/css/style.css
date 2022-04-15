@@ -163,7 +163,7 @@ h2 {
     margin-left: 6.5%;
 
     padding: 10px;
-    display: inline-block;
+    
 
     /* background: url(../images/latte.jpg-resized.jpg);
     background-size: cover; */
@@ -187,7 +187,7 @@ h2 {
     margin-right: 6.5%;
     font-size: 170%;
     padding: 10px;
-    display: inline-block;
+    
 
 
 }
@@ -433,12 +433,7 @@ height: 900px;
 
 /* 476px */
 @media screen and (max-width: 476px) {
-    #nav-links {
-        /* clear: left;
-        margin: 0 30%;
-        line-height: 25px;
-        float: left; */
-    }
+   
 #maynes{
     line-height: 40px;
         padding-top: 15px;
