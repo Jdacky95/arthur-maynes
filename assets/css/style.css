@@ -97,6 +97,7 @@ h2 {
     height: auto;
     text-align: center;
     left: 25%;
+    font-size: 100%;
 
     font-family: 'Dancing Script', cursive;
     background-color: rgba(5, 5, 2, 0.8);
@@ -130,9 +131,9 @@ h2 {
     float: left;
     font-family: monospace;
     /* color: white; */
-    color: red;
+    color: white;
     border: 20px solid;
-    border-color: red;
+    border-color: white;
     box-sizing: border-box;
     text-align: center;
     height: 650px;
@@ -149,10 +150,10 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     height: 650px;
-    color: red;
+    color: white;
     background-color: black;
     border: 20px solid;
-    border-color: red;
+    border-color: white;
     box-sizing: border-box;
     margin-right: 6.5%;
     font-size: 150%;
