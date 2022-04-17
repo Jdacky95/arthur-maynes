@@ -130,7 +130,6 @@ h2 {
     width: 500px;
     float: left;
     font-family: monospace;
-    /* color: white; */
     color: white;
     border: 20px solid;
     border-color: white;
@@ -241,7 +240,7 @@ hr {
 
 .contact {
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
     font-family: 'Dancing Script', cursive;
     color: red;
 
@@ -365,9 +364,18 @@ hr {
 
     #form-box {
         width: 80%;
-        height: 600px;
+        height: 300px;
         font-size: 100%;
         left: 20px;
+    }
+
+    #form-section {
+        height: 500px;
+        overflow: hidden;
+    }
+
+    #pic-form {
+        height: 500px;
     }
 
 }
