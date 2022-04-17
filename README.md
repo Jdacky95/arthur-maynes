@@ -52,7 +52,23 @@ It is built to be visually appealing, whilst providing good concise information 
 
 # Gallery Page
 
-- The Gallery Page 
+- The Gallery Page is a page with multiple images to display in and around the venue, it is visually stimulating and is designed to make users of the site want to visit Robert Green's bar. 
+
+# Testing
+
+# Bugs
+
+## Fixed
+
+## Unfixed
+
+# Validator Testing
+
+# Credits
+
+
+
+
 
 
 
