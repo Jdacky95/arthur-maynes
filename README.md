@@ -20,7 +20,7 @@ It is built to be visually appealing, whilst providing good concise information 
 
  - The color used for the navigation links is well contrasted with the background for easy readabiltity and helps users transfer to different areas of the site with ease.
 
-
+![Header](assets/images/header.png)
 
 ## Footer
 
@@ -30,11 +30,15 @@ It is built to be visually appealing, whilst providing good concise information 
 
 - The footer contains social media links to Facebook, Twitter and Instagram and is represented in the form of each logo for each site. 
 
+![Footer](assets/images/footer.png)
+
 # Home Page
 
  ## The Home Image Section:
 
 - A Decorative image is featured displaying some of the Beers available on draft with a small message welcoming the user to the site.
+
+![Home-Image](assets/images/home-image-overlay-text.png)
 
 ## The Opening hours and About us section:
 
@@ -44,22 +48,33 @@ It is built to be visually appealing, whilst providing good concise information 
 
 - This section is displayed in white color on a black background, this large contrast is to ensure the easiest readability on the most dense text area of the site. 
 
+![opening-and-about-us-section](assets/images/bottom-blocks.png)
+
 # Club Page
 
 - The Club page has a form to collect details from users who would like to enroll into Robert Green's wine club.
 
 - This form takes details for First name, Last name and Email address.
 
+![club-form](assets/images/club-new.png)
+
 # Gallery Page
 
 - The Gallery Page is a page with multiple images to display in and around the venue, it is visually stimulating and is designed to make users of the site want to visit Robert Green's bar. 
 
+![gallery-page](assets/images/gallery-1st-3.png)
+![gallery-page-2](assets/images/gallery-2nd-3.png)
+
 # Testing
 
 - I tested this website on Chrome, Firefox and Safari and after minor tweaks it works perfectly across all of them.
+
 - I confirmed that this project looks good and is responsive across all screen sizes using "inspect" and applying my page to different devices. 
+
 - I confirmed that all of my text is easily readble throughout my project.
+
 - I have confirmed that all of my social media links work and open in seperate tabs.
+
 - I have confirmed that my Club form works, and requires all information (First name, Last name and Email address.) before it can be submitted.
 
 
@@ -86,7 +101,17 @@ No errors were returned when passing through the official W3C validator at time 
 - Accessibility
 I have confirmed that the site runs well by running it through "Lighthouse" on devtools and recieving good ratings in performance, Accessibilty, Best practises and SEO 
 
-!
+![lighthouse-home](assets/images/home-lighthouse.png)
+![lighthouse-club](assets/images/contact-lighthouse.png)
+![lighthouse-gallery](assets/images/gallery-lighthouse.png)
+
+# Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are:
+
+- 
+
+
 
 # Credits
 
@@ -99,3 +124,5 @@ I have confirmed that the site runs well by running it through "Lighthouse" on d
 - Added Social icons from font awesome
 
 - I used some text from https://corkheritagepubs.com/pub/arthur-maynes/ as a bar description in the about us section, I manage this bar and have full permission to do so.
+
+- All other images used for the site were photos that my friend had taken, he gave me full permission for this usage
