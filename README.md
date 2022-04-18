@@ -46,7 +46,7 @@ It is built to be visually appealing, whilst providing good concise information 
 
 - The right of this section is a div block with some background information and history on the premises.
 
-- This section is displayed in white color on a black background, this large contrast is to ensure the easiest readability on the most dense text area of the site. 
+- This section is displayed in white color on a black background, this large contrast is to ensure the easiest readability on the most dense text area of the site. I have also used an easier to read font for this section to help with readability.
 
 ![opening-and-about-us-section](assets/images/bottom-blocks.png)
 
