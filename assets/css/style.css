@@ -84,7 +84,7 @@ h2 {
     background: url(../images/rising-taps.jpg\ 88\ height.jpg) no-repeat center center;
     background-size: cover;
     position: absolute;
-
+    
     animation-name: home-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;

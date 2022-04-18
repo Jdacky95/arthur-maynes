@@ -4,7 +4,7 @@ The Website is a page for Robert Green's bar where potential customers can find 
 
 It is built to be visually appealing, whilst providing good concise information to users of the site. 
 
- ![robert](assets/images/robert-green.png)
+ ![Am I repsonsive page screenshot](assets/images/robert-green.png)
 
  # Features
 
@@ -56,56 +56,37 @@ It is built to be visually appealing, whilst providing good concise information 
 
 # Testing
 
+- I tested this website on Chrome, Firefox and Safari and after minor tweaks it works perfectly across all of them.
+- I confirmed that this project looks good and is responsive across all screen sizes using "inspect" and applying my page to different devices. 
+- I confirmed that all of my text is easily readble throughout my project.
+- I have confirmed that all of my social media links work and open in seperate tabs.
+- I have confirmed that my Club form works, and requires all information (First name, Last name and Email address.) before it can be submitted.
+
+
 # Bugs
 
 ## Fixed
 
+- When testing I found that the background image I used in my Club page would not load in safari as it was in ".webp" format, once i changed this to ".jpeg" it worked fine.
+
+- When loading the page originally i found that the page was slow to load images, so I resized them and page performance increased significantly.
+
 ## Unfixed
+
+- There are no unfixed bugs.
 
 # Validator Testing
 
+
+
 # Credits
 
+ - I used "Send Flowers" font and "Dancing script" from Google Fonts 
 
+- I used some stock "wine images" from pexels.com
 
+- I Added "font-awesome" source code from love running project.
 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- Added "Send Flowers" font from Google Fonts 
-Added stock "wine images" from pexels.com
-Added "font-awesome" source code from love running project.
-Added Social icons from font awesome
-Resized images on home screen to improve load times
+- Added Social icons from font awesome
 
 
