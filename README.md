@@ -77,7 +77,16 @@ It is built to be visually appealing, whilst providing good concise information 
 
 # Validator Testing
 
+- HTML
+No errors were returned when passing through the official W3C validator at time of submission.
 
+-CSS
+No errors were returned when passing through the official W3C validator at time of submission.
+
+- Accessibility
+I have confirmed that the site runs well by running it through "Lighthouse" on devtools and recieving good ratings in performance, Accessibilty, Best practises and SEO 
+
+!
 
 # Credits
 
@@ -89,4 +98,4 @@ It is built to be visually appealing, whilst providing good concise information 
 
 - Added Social icons from font awesome
 
-
+- I used some text from https://corkheritagepubs.com/pub/arthur-maynes/ as a bar description in the about us section, I manage this bar and have full permission to do so.
