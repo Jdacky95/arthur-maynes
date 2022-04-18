@@ -1,3 +1,5 @@
+/* Google font import scripts */
+
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
@@ -6,6 +8,7 @@
     padding: 0;
 }
 
+/* general body code */
 body {
     font-family: Send Flowers, Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -17,6 +20,7 @@ h2 {
     letter-spacing: 3px;
 }
 
+/* Code for header */
 #box {
     background-color: black;
     width: 100%;
@@ -68,6 +72,8 @@ h2 {
     border-bottom: solid 1px;
 }
 
+/* end of code for header */
+
 /* main-image-block */
 
 #home-outer {
@@ -84,7 +90,7 @@ h2 {
     background: url(../images/rising-taps.jpg\ 88\ height.jpg) no-repeat center center;
     background-size: cover;
     position: absolute;
-    
+
     animation-name: home-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -263,6 +269,8 @@ hr {
     border: solid 2px rgb(255, 0, 174);
 }
 
+/* submit button  */
+
 .join {
     text-align: center;
     background-color: rgb(255, 0, 174);
@@ -311,8 +319,8 @@ hr {
         margin: 10px auto;
     }
 
-    #media-p {
-        width: 600px;
+    .media-p {
+        width: 380px;
         margin: 0 auto;
     }
 
@@ -320,6 +328,7 @@ hr {
 
 /* medium screens 850 */
 @media screen and (max-width: 850px) {
+
     #maynes {
         padding: 10px;
         text-align: center;
@@ -337,6 +346,7 @@ hr {
         height: 200px;
     }
 
+    /* home 850 */
     #home-text {
 
         width: 100%;
@@ -354,13 +364,19 @@ hr {
         margin: 0 auto;
     }
 
+    /* social 850 */
+
     .social-links i {
         letter-spacing: 20px;
     }
 
+    /* gallery 850 */
+
     #gallery {
         column-count: 2;
     }
+
+    /* form 850 */
 
     #form-box {
         width: 80%;
@@ -380,8 +396,10 @@ hr {
 
 }
 
-/* 476px */
+/* custom screens 476px */
 @media screen and (max-width: 476px) {
+
+    /* header 476 */
 
     #maynes {
         line-height: 50px;
@@ -394,7 +412,7 @@ hr {
     }
 
     .maynes-link {
-        
+
         list-style-type: none;
         text-decoration: none;
     }
@@ -416,6 +434,8 @@ hr {
         height: 300px;
     }
 
+    /* home 476 */
+
     #home-text {
         width: 200px;
         height: 150px;
@@ -425,11 +445,7 @@ hr {
 
     }
 
-    #head-476 {
-        width: 200px;
-        margin: 0 auto;
-    }
-    #head-476-2 {
+    .head-476 {
         width: 200px;
         margin: 0 auto;
     }
@@ -445,6 +461,8 @@ hr {
         margin: 0 auto;
     }
 
+    /* social 476 */
+
     .social-links i {
         letter-spacing: 10px;
         font-size: 200%;
@@ -454,9 +472,13 @@ hr {
         letter-spacing: 10px;
     }
 
+    /* gallery 476 */
+
     #gallery {
         column-count: 1;
     }
+
+    /* form 476 */
 
     #form-box {
         width: 80%;
