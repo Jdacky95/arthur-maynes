@@ -109,7 +109,13 @@ I have confirmed that the site runs well by running it through "Lighthouse" on d
 
 The site was deployed to GitHub pages. The steps to deploy are:
 
-- 
+- Log in to GitHub and click on repositorys
+- Navigate to the settings tab and then find GitHub pages section under the code and automations section to the left of the page.
+- from sourse select "main branch" and save.
+- page was deployed after refreshing.
+
+The live link for the site can be found here: https://jdacky95.github.io/james-dack-project-1/club.html
+
 
 
 
